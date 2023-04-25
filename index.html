@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="Pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Calculadora de Médias</title>
 </head>
+
 <body>
     <header>
         <img src="./imagens/log.png" alt="Capelo e Diploma">
@@ -14,7 +16,33 @@
     </header>
     <form>
         <input type="text" required placeholder="Nome da Atividade">
+        <input type="number" required placeholder="Nota da Atividade" min="0" max="10">
+        <button type="submit"> Adicionar +</button>
     </form>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nome da Atividade
+                </th>
+                <th> Nota da Atividade</th>
+                <th>Aprovado?</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Atividade 1</td>
+                <td>7</td>
+                <td><img src="./images/aprovado.png" alt="Emoji festejando"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Média final</td>
+                <td>aprovado</td>
+            </tr>
+        </tfoot>
+        </thead>
+    </table>
 </body>
 <script src="script.js"></script>
 
