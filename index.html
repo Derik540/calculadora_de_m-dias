@@ -6,43 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Calculadora de Médias</title>
 </head>
 
 <body>
-    <header>
-        <img src="./imagens/log.png" alt="Capelo e Diploma">
-        <h1>Calculadora de Médias</h1>
-    </header>
-    <form>
-        <input type="text" required placeholder="Nome da Atividade">
-        <input type="number" required placeholder="Nota da Atividade" min="0" max="10">
-        <button type="submit"> Adicionar +</button>
-    </form>
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    Nome da Atividade
-                </th>
-                <th> Nota da Atividade</th>
-                <th>Aprovado?</th>
-            </tr>
-        <tbody>
-            <tr>
-                <td>Atividade 1</td>
-                <td>7</td>
-                <td><img src="./images/aprovado.png" alt="Emoji festejando"></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Média final</td>
-                <td>aprovado</td>
-            </tr>
-        </tfoot>
-        </thead>
-    </table>
+    <div class="conteiner">
+        <header>
+            <img src="./images/logo.png" alt="Capelo e Diploma">
+            <h1>Calculadora de Médias</h1>
+        </header>
+        <form>
+            <input type="text" required placeholder="Nome da Atividade">
+            <input type="number" required placeholder="Nota da Atividade" min="0" max="10">
+            <button type="submit"> Adicionar +</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Nome da Atividade
+                    </th>
+                    <th> Nota da Atividade</th>
+                    <th>Aprovado?</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>Atividade 1</td>
+                    <td>7</td>
+                    <td><img src="./images/aprovado.png" alt="Emoji festejando"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Média final</td>
+                    <td>aprovado</td>
+                </tr>
+            </tfoot>
+            </thead>
+        </table>
+    </div>
 </body>
 <script src="script.js"></script>
 
