@@ -68,7 +68,7 @@ table th {
     font-size: bold;
 }
 
-tbody td {
+table td {
     padding: 10px 0;
     text-align: center;
     font-size: 18px;
@@ -91,6 +91,6 @@ table td img {
     background-color: chartreuse;
 }
 
-.aprovado {
+.reprovado {
     background-color: rgb(255, 0, 0);
 }
